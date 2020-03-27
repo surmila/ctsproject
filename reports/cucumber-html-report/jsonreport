@@ -1,0 +1,338 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To check the Application is seraching for product",
+        "description": "",
+        "id": "jpet-website;to-check-the-application-is-seraching-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7505125500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ":Open the jpet website in browser",
+            "match": {
+              "location": "validsearch_steps.open_the_jpet_website_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169136701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ":enter the item name",
+            "match": {
+              "location": "validsearch_steps.enter_the_item_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5081299001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ":Click on search bar",
+            "match": {
+              "location": "validsearch_steps.click_on_search_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 699168199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ":close the website",
+            "match": {
+              "location": "validsearch_steps.close_the_website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc01_search"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "To check the application is  Seraching for product",
+        "description": "",
+        "id": "jpet-website;to-check-the-application-is--seraching-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5111147199,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": ":Open the jpet website in chrome browser",
+            "match": {
+              "location": "invalidsearch_steps.open_the_jpet_website_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139393100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": ":Enter the item name",
+            "match": {
+              "location": "invalidsearch_steps.enter_the_item_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 359474900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": ":click on search bar",
+            "match": {
+              "location": "invalidsearch_steps.click_on_search_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 757681499,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": ":Close the website",
+            "match": {
+              "location": "invalidsearch_steps.close_the_website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tc02_invalidsearch"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To Check that application is Seraching for product",
+        "description": "",
+        "id": "jpet-website;to-check-that-application-is-seraching-for-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5217893300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": ":Open the url in Browser",
+            "match": {
+              "location": "searchbyhint_steps.open_the_url_in_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125740800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": ":Enter the Item name with hint",
+            "match": {
+              "location": "searchbyhint_steps.enter_the_Item_name_with_hint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601627500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": ":click on Searchbutton",
+            "match": {
+              "location": "searchbyhint_steps.click_on_Searchbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 732831200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": ":Close the jpetsite",
+            "match": {
+              "location": "searchbyhint_steps.close_the_jpetsite()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@tc03_searchbyhint"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "to check the application is Seraching for the Product",
+        "description": "",
+        "id": "jpet-website;to-check-the-application-is-seraching-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5391547201,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": ":Open the JPET Websitein browser",
+            "match": {
+              "location": "searchproductId_steps.open_the_JPET_Websitein_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160411100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": ":click on product",
+            "match": {
+              "location": "searchproductId_steps.click_on_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491311799,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": ":click on Searchbar",
+            "match": {
+              "location": "searchproductId_steps.click_on_Searchbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 864272999,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": ":Close The jpetWebsite",
+            "match": {
+              "location": "searchproductId_steps.close_The_jpetWebsite()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tc04_searchbyproductid"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "The product  are stored in excel",
+        "description": "",
+        "id": "jpet-website;the-product--are-stored-in-excel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5701998700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "url open in chrome browser",
+            "match": {
+              "location": "storingdetails.url_open_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151473100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks on cart option",
+            "match": {
+              "location": "storingdetails.the_user_clicks_on_cart_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41624888600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clicks on the selected product",
+            "match": {
+              "location": "storingdetails.clicks_on_the_selected_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 727219400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "stored the detail",
+            "match": {
+              "location": "storingdetails.stored_the_detail()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@TC05_storingProductDetails"
+          }
+        ]
+      }
+    ],
+    "name": "jpet website",
+    "description": "",
+    "id": "jpet-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/acer/eclipse-workspace/petstore/src/main/resources/feature/TestCase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@jpet_feature"
+      }
+    ]
+  }
+]
